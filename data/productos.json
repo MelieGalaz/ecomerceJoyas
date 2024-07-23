@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "nombre": "Anillo Corazón",
+    "descripcion": "ANILLO CORAZÓN EN PLATA, CÚBIC AZUL",
+    "img": "../img/anilloColores.webp",
+    "precio": 86400
+  },
+  {
+    "nombre": "Pulcera Perlas",
+    "descripcion": "PULSERA CON PERLAS DE RÍO, BOLITAS Y DETALLES EN PLATA.",
+    "img": "../img/pulsera.webp",
+    "precio": 28400
+  },
+  {
+    "id": 2,
+    "nombre": "Dije Corazón",
+    "descripcion": "DIJE CORAZÓN EN PLATA Y CÚBIC",
+    "img": "../img/dijeCorazon.webp",
+    "precio": 21560
+  },
+  {
+    "id": 3,
+    "nombre": "Anillo Colores",
+    "descripcion": "ANILLO EN PLATA Y ORO CON CUBIC BAGUETTE COLORES",
+    "img": "../img/anilloCorazon.webp",
+    "precio": 68630
+  },
+  {
+    "id": 4,
+    "nombre": "Aros Flor",
+    "descripcion": "AROS FLOR ABRIDORES CON PERLITAS EN PLATA",
+    "img": "../img/arosFlor.webp",
+    "precio": 7450
+  },
+  {
+    "id": 5,
+    "nombre": "Esclava de Plata",
+    "descripcion": "ESCLAVA ABIERTA CON BOLITAS",
+    "img": "../img/esclava.webp",
+    "precio": 72000
+  },
+  {
+    "id": 6,
+    "nombre": "Argollas Bolitas",
+    "descripcion": "ARGOLLITAS BOLITAS EN PLATA, 1,2 CM.",
+    "img": "../img/argollasBolitas.webp",
+    "precio": 24000
+  },
+  {
+    "id": 7,
+    "nombre": "Pulsera cristales Negros",
+    "descripcion": "PULSERA EN PLATA Y CRISTALITOS, 19 CM.",
+    "img": "../img/pulceraNegra.webp",
+    "precio": 29000
+  },
+  {
+    "id": 8,
+    "nombre": "Anillo Moño",
+    "descripcion": "ANILLO FINO EN PLATA Y ORO CON 2 CÚBIC BLANCOS",
+    "img": "../img/anilloMoño.webp",
+    "precio": 19820
+  }
+]
