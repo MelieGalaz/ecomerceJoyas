@@ -3,7 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #f4e6e1 !important;
+  min-height: 100vh;
+}
 .logo {
   width: 8rem;
   height: 100%;
@@ -38,6 +41,7 @@ header {
   text-decoration: none;
   color: #ceb633c4;
   font-size: 1.1rem;
+  font-family: "Merienda";
 }
 
 .navbar-toggler {
@@ -175,6 +179,30 @@ button[type="submit"]:hover {
 .contenedor-baner {
   background-color: #5c18182e;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+.contenedor-tex-medio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.contenedor-tex-medio-primero {
+  color: #a08808c4;
+  text-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+  font-family: "Noto Serif", serif;
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-align: center;
+}
+.contenedor-tex-medio-segundo {
+  color: #a08808c4;
+  text-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
 }
 .baner {
   background-image: url(../img/baner1.jpg);

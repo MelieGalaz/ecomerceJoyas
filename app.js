@@ -8,11 +8,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 
 const routerProducto = require("./router/productosRouter.js");
-app.use("/", routerProducto); // Ruta base para el router de productos
+const navRouter = require("./router/navRouter.js");
+
+app.use("/productos", routerProducto);
+app.use("/", navRouter);
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
-
 app.use(express.static("public"));
 
 app.listen(3000, () => {
