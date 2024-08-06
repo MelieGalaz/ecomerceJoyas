@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <%- include('../partials/headProd') %>
+  <body>
+    <%- include('../partials/headerProd') %>
+    <main>
+      <form
+        action="/productos/create"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <div>
+          <a href="/productos">Volver</a>
+        </div>
+        <h2 class="titulo_form">Crear Producto</h2>
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Nombre del Producto"
+          required
+        />
+
+        <label for="descripcion">Descripción: </label>
+        <input
+          type="text"
+          name="descripcion"
+          id="descripcion"
+          placeholder="Ingresa la descripción del producto"
+          required
+        />
+
+        <label for="precio">Precio: </label>
+        <input
+          type="number"
+          name="precio"
+          id="precio"
+          placeholder="Ingresa el Precio"
+          required
+        />
+
+        <label for="imagen">Imagen: </label>
+        <input type="file" name="imagen" id="imagen" required />
+
+        <div class="contenedor_Botones">
+          <button type="submit">Crear Producto</button>
+          <a class="Cancelar" href="/productos">Cancelar</a>
+        </div>
+      </form>
+    </main>
+    <%- include('../partials/footer') %>
+  </body>
+</html>

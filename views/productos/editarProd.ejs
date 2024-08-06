@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/headProd') %>
+  <body>
+    <%- include('../partials/headerProd') %>
+    <main>
+      <form
+        action="/productos/<%= producto.id %>?_method=PUT"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <div>
+          <a href="/productos">Volver</a>
+        </div>
+        <h2 class="titulo_form">Editar Producto</h2>
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          value="<%= producto.nombre %>"
+          required
+        />
+
+        <label for="descripcion">Descripción: </label>
+        <input
+          type="text"
+          name="descripcion"
+          id="descripcion"
+          value="<%= producto.descripcion %>"
+          required
+        />
+
+        <label for="precio">Precio: </label>
+        <input
+          type="number"
+          name="precio"
+          id="precio"
+          value="<%= producto.precio %>"
+          required
+        />
+
+        <label for="imagen">Imagen Actual:</label>
+        <% if (producto.imagen) { %>
+        <img
+          src="/img/<%= producto.imagen %>"
+          alt="Imagen del producto"
+          style="max-width: 200px"
+        />
+        <% } %>
+
+        <label for="imagen">Cambiar Imagen:</label>
+        <input type="file" name="imagen" id="imagen" />
+
+        <div class="contenedor_Botones">
+          <button type="submit">Editar</button>
+          <a class="Cancelar" href="/productos">Cancelar</a>
+        </div>
+      </form>
+    </main>
+    <%- include('../partials/footer') %>
+  </body>
+</html>

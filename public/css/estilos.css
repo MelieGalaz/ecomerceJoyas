@@ -6,6 +6,16 @@
 body {
   background-color: #f4e6e1 !important;
   min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .logo {
   width: 8rem;
@@ -95,18 +105,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
 }
 .card-descrpcion {
   text-align: center;
-}
-footer {
-  padding-block: 10px;
-  background-color: #5c1818;
-  color: #ceb633c4;
-  font-size: 1rem;
-  text-align: center;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .container {
@@ -162,7 +163,23 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #77052b;
 }
-
+.Cancelar {
+  padding: 10px 40px;
+  background-color: #aa9494;
+  margin: auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.Cancelar:hover {
+  background-color: #a7a28e;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 .img-carrusell {
   object-fit: cover;
   height: 300px;
@@ -250,4 +267,56 @@ button[type="submit"]:hover {
   color: #ae0c0c;
   font-weight: 500;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
+}
+footer {
+  padding-block: 10px;
+  background-color: #5c1818;
+  color: #ceb633c4;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+.boton_edi_eli {
+  text-decoration: none;
+  color: #5c1818;
+  font-weight: 800;
+}
+.boton_edi_eli:hover {
+  color: #cf580ff3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.contenedor_edi-eli {
+  display: flex;
+  gap: 25px;
+}
+.crearProd {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  color: #5c1818;
+  font-weight: 800;
+}
+.crearProd:hover {
+  color: #cf580ff3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.contenedor_Botones {
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+}
+.titulo_form {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+.texto_form {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.texto_nombre_descripcion {
+  color: #5c1818;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

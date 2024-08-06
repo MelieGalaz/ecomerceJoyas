@@ -3,85 +3,79 @@
   <%- include('partials/head') %>
   <body>
     <%- include('partials/header') %>
-    <main>
-      <div class="contenedor-tex-medio">
-        <p class="contenedor-tex-medio-segundo">
-          ¡¡BIENVENIDAS A NUESTRA TIENDA!!
-        </p>
-      </div>
-      <section class="section-carrusel">
-        <div class="carrusel-contenedor">
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="img/joyas1.jpg"
-                  class="img-carrusell d-block w-100"
-                  alt="anilloColores"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/joyas2.jpg"
-                  class="img-carrusell d-block w-100"
-                  alt="dijeCorazon"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/joyas3.jpg"
-                  class="img-carrusell d-block w-100"
-                  alt="pulceraNegra"
-                />
-              </div>
+
+    <div class="contenedor-tex-medio">
+      <p class="contenedor-tex-medio-segundo">
+        ¡¡BIENVENIDAS A NUESTRA TIENDA!!
+      </p>
+    </div>
+    <section class="section-carrusel">
+      <div class="carrusel-contenedor">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/joyas1.jpg"
+                class="img-carrusell d-block w-100"
+                alt="anilloColores"
+              />
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </section>
-      <div class="contenedor-tex-medio">
-        <h3 class="contenedor-tex-medio-primero">Regala Joyas</h3>
-        <p class="contenedor-tex-medio-segundo">Envíos a todo el país</p>
-      </div>
-      <section>
-        <div class="contenedor-baner">
-          <div class="baner">
-            <h2 class="titulo-baner">
-              Diseños exclusivos,<span class="titulo-baner-diferente"
-                >Elegancia que destaca</span
-              >
-            </h2>
-            <div class="contenedor-boton-cuotas" href="/productos">
-              <a href="/productos" class="boton-baner">VER COLECCIÓN</a>
-              <p class="baner-cuotas">Hasta 3 y 6 cuotas sin intereses</p>
+            <div class="carousel-item">
+              <img
+                src="img/joyas2.jpg"
+                class="img-carrusell d-block w-100"
+                alt="dijeCorazon"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/joyas3.jpg"
+                class="img-carrusell d-block w-100"
+                alt="pulceraNegra"
+              />
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+    <div class="contenedor-tex-medio">
+      <h3 class="contenedor-tex-medio-primero">Regala Joyas</h3>
+      <p class="contenedor-tex-medio-segundo">Envíos a todo el país</p>
+    </div>
+    <section>
+      <div class="contenedor-baner">
+        <div class="baner">
+          <h2 class="titulo-baner">
+            Diseños exclusivos,<span class="titulo-baner-diferente"
+              >Elegancia que destaca</span
+            >
+          </h2>
+          <div class="contenedor-boton-cuotas" href="/productos">
+            <a href="/productos" class="boton-baner">VER COLECCIÓN</a>
+            <p class="baner-cuotas">Hasta 3 y 6 cuotas sin intereses</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <%- include('partials/footer') %>
   </body>
 </html>

@@ -3,20 +3,38 @@
   <%- include('../partials/head') %>
   <body>
     <%- include('../partials/header') %>
-    <section>
-      <div class="contenedor">
-        <%productos.forEach(producto =>{ %>
-        <div class="card-contenedor">
-          <img class="card-img" src="<%= producto.img %>" />
-          <div class="card-contenedor-tex">
-            <h2 class="nombreProc"><%=producto.nombre%></h2>
-            <p class="card-descrpcion"><%=producto.descripcion%></p>
-            <span>$<%=producto.precio%></span>
+    <main>
+      <section>
+        <div class="contenedor">
+          <%productos.forEach(producto =>{ %>
+          <div class="card-contenedor">
+            <img
+              src="/img/<%=producto.imagen%>"
+              alt="<%= producto.marca %> <%= producto.modelo %>"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2 class="nombreProc"><%=producto.nombre%></h2>
+              <p class="card-descrpcion"><%=producto.descripcion%></p>
+              <span>$<%=producto.precio%></span>
+            </div>
+            <div class="contenedor_edi-eli">
+              <a href="/productos/<%= producto.id %>/edit" class="boton_edi_eli"
+                >Editar</a
+              >
+              <a
+                href="/productos/<%= producto.id %>/delete"
+                class="boton_edi_eli"
+                >Eliminar</a
+              >
+            </div>
           </div>
+          <%})%>
         </div>
-        <%})%>
-      </div>
-    </section>
+      </section>
+
+      <a href="/productos/create" class="crearProd">Crear Producto</a>
+    </main>
     <%- include('../partials/footer') %>
   </body>
 </html>
