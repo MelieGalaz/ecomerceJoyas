@@ -82,8 +82,9 @@ header {
   margin: 25px auto;
 }
 .card-contenedor {
-  width: 400px;
-  height: 544px;
+  /* width: 400px;
+  height: 544px; */
+  margin: 10px;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -130,6 +131,7 @@ header {
 }
 
 form {
+  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -215,7 +217,7 @@ label {
 .contenedor-tex-medio-segundo {
   color: #a08808c4;
   text-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
-  font-family: "Merienda", cursive;
+  font-family: "Merienda", cursive !important;
   font-optical-sizing: auto;
   font-size: 1.5rem;
   font-weight: 700;
@@ -264,7 +266,7 @@ label {
   box-shadow: 0 8px 16px rgba(241, 233, 233, 0.4);
 }
 .baner-cuotas {
-  color: #ae0c0c;
+  color: #f2e1e1;
   font-weight: 500;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
 }
@@ -288,10 +290,11 @@ footer {
 .contenedor_edi-eli {
   display: flex;
   gap: 25px;
+  padding-bottom: 10px;
 }
 .crearProd {
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
   text-decoration: none;
   color: #5c1818;
@@ -318,5 +321,41 @@ footer {
 .texto_nombre_descripcion {
   color: #5c1818;
   font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 85%;
+  max-width: 1000px;
+  margin: 15px auto;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+  padding-right: 100%;
+  font-size: 1.3rem;
+  color: #5c1818;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.Volver {
+  font-size: 1.1rem;
+  color: #5c1818;
+  text-decoration: none;
+}
+
+.Volver:hover {
+  color: #ceb633c4;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

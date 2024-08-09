@@ -2,16 +2,21 @@
 <html lang="en">
   <%- include('partials/head') %>
   <body>
-    <%- include('partials/header') %>
-
+    <%- include('partials/header') %> <%- include('partials/marque') %>
     <div class="contenedor-tex-medio">
       <p class="contenedor-tex-medio-segundo">
         ¡¡BIENVENIDAS A NUESTRA TIENDA!!
       </p>
     </div>
+
     <section class="section-carrusel">
       <div class="carrusel-contenedor">
-        <div id="carouselExample" class="carousel slide">
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -56,6 +61,7 @@
         </div>
       </div>
     </section>
+
     <div class="contenedor-tex-medio">
       <h3 class="contenedor-tex-medio-primero">Regala Joyas</h3>
       <p class="contenedor-tex-medio-segundo">Envíos a todo el país</p>
@@ -64,9 +70,8 @@
       <div class="contenedor-baner">
         <div class="baner">
           <h2 class="titulo-baner">
-            Diseños exclusivos,<span class="titulo-baner-diferente"
-              >Elegancia que destaca</span
-            >
+            Diseños exclusivos,
+            <span class="titulo-baner-diferente">Elegancia que destaca</span>
           </h2>
           <div class="contenedor-boton-cuotas" href="/productos">
             <a href="/productos" class="boton-baner">VER COLECCIÓN</a>

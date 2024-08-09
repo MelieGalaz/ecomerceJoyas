@@ -4,44 +4,49 @@
   <body>
     <%- include('../partials/header') %>
     <main>
-      <div class="container">
-        <div class="form-container">
-          <form>
-            <h2 class="titulo_form">Escríbenos</h2>
-            <label for="nombre" class="contacto-label">Nombre:</label>
-            <input
-              type="text"
-              id="nombre"
-              name="name"
-              placeholder="Nombre Apellido"
-              required
-            />
-            <label for="consulta" class="contacto-label">Consulta:</label>
-            <input
-              type="text"
-              id="consulta"
-              name="name"
-              placeholder="Necesito informacion del producto...."
-              required
-            />
-            <label for="celular" class="contacto-label">Celular:</label>
-            <input type="number" id="celular" name="name" required />
-            <label for="correo" class="contacto-label">Celular:</label>
-            <input
-              type="email"
-              id="correo"
-              name="name"
-              placeholder="juan@gmail.com"
-              required
-            />
-
-            <div class="contenedor_Botones">
-              <button type="submit">Enviar</button>
-              <a class="Cancelar" href="/">Cancelar</a>
-            </div>
-          </form>
-        </div>
+      <div class="contenedor-tex-medio">
+        <p class="contenedor-tex-medio-segundo">
+          ¿Tienes Preguntas? Escríbenos
+        </p>
       </div>
+
+      <form action="https://formsubmit.co/galazmely27@gmail.com" method="POST">
+        <div>
+          <a href="/productos" class="Volver">Volver</a>
+        </div>
+        <h2 class="titulo_form">Escríbenos</h2>
+        <label for="nombre" class="contacto-label">Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="name"
+          placeholder="Nombre Apellido"
+          required
+        />
+
+        <label for="celular" class="contacto-label">Celular:</label>
+        <input type="number" id="celular" name="name" required />
+        <label for="correo" class="contacto-label">Correo:</label>
+        <input
+          type="email"
+          id="correo"
+          name="name"
+          placeholder="juan@gmail.com"
+          required
+        />
+        <label for="consulta" class="contacto-label">Consulta:</label>
+        <input
+          type="text"
+          id="consulta"
+          name="name"
+          placeholder="Necesito informacion del producto...."
+          required
+        />
+        <div class="contenedor_Botones">
+          <button type="submit" href="/">Enviar</button>
+          <a class="Cancelar" href="/">Cancelar</a>
+        </div>
+      </form>
     </main>
     <%- include('../partials/footer') %>
   </body>
