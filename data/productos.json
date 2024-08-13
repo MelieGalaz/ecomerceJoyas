@@ -1,12 +1,5 @@
 [
  {
-  "id": 7,
-  "nombre": "Anillo Moño",
-  "descripcion": "ANILLO FINO EN PLATA Y ORO CON 2 CÚBIC BLANCOS",
-  "precio": "19820",
-  "imagen": "1723168419597-1722898831222-anilloMoÃÂ±o.webp"
- },
- {
   "id": 2,
   "nombre": "Pulcera Perlas",
   "descripcion": "PULSERA CON PERLAS DE RÍO, BOLITAS Y DETALLES EN PLATA.",
@@ -36,9 +29,23 @@
  },
  {
   "id": 6,
-  "nombre": "Aros Flor",
+  "nombre": "Aros Flor 1",
   "descripcion": "ROS FLOR ABRIDORES CON PERLITAS EN PLATA",
   "precio": "72000",
   "imagen": "1723568973396-1722898422101-arosFlor.webp"
+ },
+ {
+  "id": 7,
+  "nombre": "Aros Flor aaaaaa aaaaa",
+  "descripcion": "PULSERA EN PLATA Y CRISTALITOS, 19 CM.<<<<<<",
+  "precio": "5555",
+  "imagen": "1723585910247-1722898779960-pulceraNegra.webp"
+ },
+ {
+  "id": 8,
+  "nombre": "pulcera 12nn",
+  "descripcion": "hermosos",
+  "precio": "555",
+  "imagen": "1723585944143-1723168459260-1722902180603-1722898907918-pulsera.webp"
  }
 ]
