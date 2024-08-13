@@ -1,16 +1,44 @@
 [
  {
   "id": 7,
-  "nombre": "Pulsera cristale",
-  "descripcion": "PULSERA EN PLATA <<",
-  "precio": "29000",
+  "nombre": "Anillo Moño",
+  "descripcion": "ANILLO FINO EN PLATA Y ORO CON 2 CÚBIC BLANCOS",
+  "precio": "19820",
   "imagen": "1723168419597-1722898831222-anilloMoÃÂ±o.webp"
  },
  {
   "id": 2,
-  "nombre": "weeere",
-  "descripcion": "dfsffdds",
-  "precio": "54654654654",
+  "nombre": "Pulcera Perlas",
+  "descripcion": "PULSERA CON PERLAS DE RÍO, BOLITAS Y DETALLES EN PLATA.",
+  "precio": "28400",
   "imagen": "1723168459260-1722902180603-1722898907918-pulsera.webp"
+ },
+ {
+  "id": 3,
+  "nombre": "Argollas Bolitas",
+  "descripcion": "ARGOLLITAS BOLITAS EN PLATA, 1,2 CM",
+  "precio": "24000",
+  "imagen": "1723568691192-1722898767350-argollasBolitas.webp"
+ },
+ {
+  "id": 4,
+  "nombre": "Dije Corazón",
+  "descripcion": "DIJE CORAZÓN EN PLATA Y CÚBIC",
+  "precio": "21560",
+  "imagen": "1723568753489-1722902054017-1722898750453-dijeCorazon.webp"
+ },
+ {
+  "id": 5,
+  "nombre": "Anillo Colores",
+  "descripcion": "ANILLO EN PLATA Y ORO CON CUBIC BAGUETTE COLORES",
+  "precio": "68630",
+  "imagen": "1723568906504-1722898791060-anilloColores.webp"
+ },
+ {
+  "id": 6,
+  "nombre": "Aros Flor",
+  "descripcion": "ROS FLOR ABRIDORES CON PERLITAS EN PLATA",
+  "precio": "72000",
+  "imagen": "1723568973396-1722898422101-arosFlor.webp"
  }
 ]
